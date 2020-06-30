@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link href="images/ico.ico" rel="shortcut icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="vendor/normalize.css">
+  <link type="text/css" rel="stylesheet" href="styles/styles.css">
+  <title>Студия web-разработки "Наколенке".</title>
+  <script src="scripts/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="logo"></div>
+      <nav>
+        <ul class="social">
+          <li class="social__item">
+            <a href="#" class="social__ico social__ico_git"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__ico social__ico_twitter"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__ico social__ico_insta"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__ico social__ico_fb"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="lead">
+        <div class="lead__info">
+          <p class="lead__employment">Фрилансер</p>
+          <h1 class="lead__title">Алексей Сурнин</h1>
+          <p class="block__text">Разрабатываю сайты для малого и&nbsp;среднего бизнеса. У&nbsp;меня можно заказать дизайн и верстку небольшого сайта или интернет&minus;магазина</p>
+          <a class="scrollto btn" href="#sendForm">
+            Бесплатная консультация
+          </a>
+        </div>
+        <figure>
+          <img class="lead__photo" src="images/avatar.jpg" alt="Аватар">
+        </figure>
+      </section>
+      <section class="advantage">
+        <div class="advantage__container">
+          <div class="advantage__bacgrnd"></div>
+          <h2 class="block__title">Со мной удобно работать</h2>
+          <div class="advantage__items">
+            <div class="advantage__item">
+              <img class="advantage__pic" src="./images/offer-img.svg" alt="">
+              <h3 class="element__title">По договору</h3>
+              <p class="block__text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+            </div>
+            <div class="advantage__item">
+              <img class="advantage__pic" src="./images/deadline-img.svg" alt="">
+              <h3 class="element__title">Точно в срок</h3>
+              <p class="block__text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+            </div>
+            <div class="advantage__item">
+              <img class="advantage__pic" src="./images/agreement-img.svg" alt="">
+              <h3 class="element__title">Ценник под вас</h3>
+              <p class="block__text">Если у вас нетиповой проект, сделаю рассчет цены за работу и&nbsp;объясню, как складывается цена.</p>
+            </div>
+            <div class="advantage__item">
+              <img class="advantage__pic" src="./images/steps-img.svg" alt="">
+              <h3 class="element__title">Премежуточные итоги</h3>
+              <p class="block__text">Показываю работу поэтапно, а не в&nbsp;последий момент перед крайним сроком. </p>
+            </div>
+            <div class="advantage__item">
+              <img class="advantage__pic" src="./images/storage-img.svg" alt="">
+              <h3 class="element__title">Хостинг и домен </h3>
+              <p class="block__text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+            </div>
+            <div class="advantage__item">
+              <img class="advantage__pic" src="./images/conversation-img.svg" alt="">
+              <h3 class="element__title">Не брошу после сдачи</h3>
+              <p class="block__text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео&minus;инструкции.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="contacts">
+      <h3 class="block__title">Свяжитесь со мной</h3>
+      <div class="contacts__items">
+        <form action="#" id="sendForm" class="contacts__form">
+          <h4 class="contacts__form-title">Можете просто оставить заявку, я&nbsp;позвоню вам сегодня</h4>
+          <div class="contacts__form-field">
+            <input type="text" id="yourName" placeholder="Ваше имя" class="contacts__form-text" required>
+            <span class="contacts__form-pic contacts__form-pic_name"></span>
+          </div>
+          <div class="contacts__form-field contacts__form-field_space-after">
+            <input type="tel" name="phone" id="phone" placeholder="Ваш телефон" class="contacts__form-text" required data-validate>
+            <span class="contacts__form-pic contacts__form-pic_cell"></span>
+          </div>
+          <button type="submit" class="btn">Бесплатная консультация</button>
+        </form>
+        <div class="contacts__card">
+          <div class="contacts__telmail">
+            <div class="contacts__tel">
+              <h3 class="element__title">Телефон</h3>
+              <a href="tel:+79991234567" class="contacts__link">+7 999 123 45 67</a>
+            </div>
+            <div class="contacts__mail">
+              <h3 class="element__title">Почта</h3>
+              <a href="mailto:lefsha@mail.ru" class="contacts__link">lefsha@mail.ru</a>
+            </div>
+          </div>
+          <div class="contacts__social">
+            <h3 class="element__title">Соцсети</h3>
+            <nav class="contacts__social-links">
+              <ul class="contacts__list-items">
+                <li class="contacts__list-item"><a href="#" class="contacts__link">t.me/lefsha</a></li>
+                <li class="contacts__list-item"><a href="#" class="contacts__link">vk.me/lefsha</a></li>
+                <li class="contacts__list-item"><a href="#" class="contacts__link">fb.me/lefsha</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul class="social">
+                <li class="social__item">
+                  <a href="#" class="social__ico social__ico_git"></a></li>
+                <li class="social__item">
+                  <a href="#" class="social__ico social__ico_twitter"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__ico social__ico_insta"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__ico social__ico_fb"></a>
+                </li>
+              </ul>
+            </nav>
+            <label class="privacy__link" for="modal">Политика конфиденциальности</label>
+          </div>
+        </div>
+      </div>
+      <div class="privacy__modal-container">
+        <input id="modal" type="checkbox">
+        <label class="modal-background" for="modal"></label>
+        <div class="modal-content">
+          <label class="modal-close" for="modal">&#10005;</label>
+          <div class="modal-text-block">
+            <h3 class="privacy__modal-title">Политика конфиденциальности</h3>
+            <p class="privacy__modal-text">
+              Оставляя данные на сайте, Вы соглашаетесь с Политикой конфиденциальности и защиты информации.
+            </p>
+            <h4 class="privacy__modal-title">Защита данных</h4>
+            <p class="privacy__modal-text">
+              Администрация сайта (далее Сайт) не может передать или раскрыть информацию, предоставленную пользователем (далее Пользователь) и использовании функций сайта третьим лицам, кроме случаев, описанных законодательством страны, на территории которой пользователь ведет свою деятельность.
+            </p>
+            <h4 class="privacy__modal-title">Получение персональной информации</h4>
+            <p class="privacy__modal-text">
+              Для коммуникации на сайте пользователь обязан внести некоторую персональную информацию. Для проверки предоставленных данных, сайт оставляет за собой право потребовать доказательства идентичности в онлайн или офлайн режимах.
+            </p>
+            <h4 class="privacy__modal-title">Использование персональной информации</h4>
+            <p class="privacy__modal-text">
+              Сайт использует личную информацию Пользователя для обслуживания и для улучшения качества предоставляемых услуг. Сайт прилагает все усилия для сбережения в сохранности личных данных Пользователя. Личная информация может быть раскрыта в случаях, описанных законодательством, либо когда администрация сочтет подобные действия необходимыми для соблюдения юридической процедуры, судебного распоряжения или легального процесса необходимого для работы Пользователя с Сайтом. В других случаях, ни при каких условиях, информация, которую Пользователь передает Сайту, не будет раскрыта третьим лицам.
+            </p>
+            <h4 class="privacy__modal-title">Коммуникация</h4>
+            <p class="privacy__modal-text">
+              После того, как Пользователь оставил данные, он получает сообщение, подтверждающее его успешную регистрацию. Пользователь имеет право в любой момент потребовать удалить свои данные из базы сайта.
+            </p>
+            <h4 class="privacy__modal-title">Ссылки</h4>
+            <p class="privacy__modal-text">
+              На сайте могут содержаться ссылки на другие сайты. Сайт не несет ответственности за содержание, качество и политику безопасности этих сайтов. Данное заявление о конфиденциальности относится только к информации, размещенной непосредственно на сайте.
+            </p>
+            <h4 class="privacy__modal-title">Безопасность</h4>
+            <p class="privacy__modal-text">
+              Сайт обеспечивает безопасность учетной записи Пользователя от несанкционированного доступа.
+            </p>
+            <h4 class="privacy__modal-title">Уведомления об изменениях </h4>
+            <p class="privacy__modal-text">
+              Сайт оставляет за собой право вносить изменения в Политику конфиденциальности без дополнительных уведомлений. Нововведения вступают в силу с момента их опубликования. Пользователи могут отслеживать изменения в Политике конфиденциальности самостоятель
+            </p>
+          </div>
+          <label class="modal-content-button" for="modal">OK</label>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    jQuery(document).ready(function() {
+      jQuery("a.scrollto").click(function() {
+        elementClick = jQuery(this).attr("href")
+        destination = jQuery(elementClick).offset().top;
+        jQuery("html:not(:animated),body:not(:animated)").animate({
+          scrollTop: destination
+        }, 800);
+        return false;
+      });
+    });
+  </script>
+</body></html>
